@@ -1,0 +1,326 @@
+/*font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+body{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+/* navigation starts from here */
+nav{
+    height: 10vh;
+    background: #06f5df;
+    display: flex;
+    padding-top: 5.5vh;
+    position:sticky;
+    top:0;
+}
+#nav1{
+    margin-left: 5vw;
+}
+#nav1 a{
+    font-size: 3vh;
+    text-decoration: none;
+    color: #3b386b;
+    font-weight:bold;
+}
+#nav2{
+    margin-left: 5vw;;
+}
+#nav2 a{
+    color: #3b386b;
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin: 5vh;
+    font-size: 3vh;
+
+}
+#nav2 a:hover{
+    transition:color 1s ease-in 0s;
+    color:black;
+}
+#nav3 img{
+    width: 5vw;
+    height: 9vh;
+}
+/* designing dropdown menu*/
+.dropdown a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding:2vh;
+    border-radius:1vh;
+}
+.dropdown{
+    display: none;
+    padding: .6vh;
+    border-radius: 1vh;
+    background:rgb(164, 224, 220);
+}   
+ .dropdown a:hover{
+    color:white;
+    transition: background-color 1s ease-in 0s;
+    background:#3b386b;
+}
+#nav3:hover .dropdown{
+    display:flex;
+    flex-direction: column;
+}
+#nav3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 85vw;
+    margin-top: -3vh;
+}
+/*dropdown menu designing stop here*/
+/*middleArea1 starts from here*/
+#middleArea1{
+    /* border:2px solid red; */
+    display: flex;
+    margin:auto;
+    padding:2vh;
+}
+#middleArea1a{
+    /* border:2px solid blue; */
+    width:20vw;
+    display: flex;
+    flex-direction: column;
+}
+#middleArea1b{
+    /* border:2px solid yellow; */
+    width:70vw;
+    padding:1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#middleArea1 a{
+    color: white;
+    background: #176679;
+    font-weight: bold;
+    text-decoration: none;
+}
+#middleArea1b1{
+    background: #3b386b;
+    width: 68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5vh; */
+    padding: 1vh;
+    border-top-right-radius: 30vh
+}
+#middleArea1b1 img{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 10vh;
+}
+#middleArea1b1 #changeImage
+{
+    display:none;
+}
+/*input of image designing*/
+#middleArea1b1 input{
+    background: #06f5df;
+    border: none;
+    margin: 1vh;
+    border-radius: 1vh;
+    padding: .5vh;
+}
+#changeImage button{
+    background: #06f5df;
+    border: none;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: #3b386b;
+    font-weight: bold;
+}
+#changeProfilePic
+{
+    background: #06f5df;
+    border: none;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: #3b3d79;
+    font-weight: bold;
+    margin: 1vh; 
+}
+#middleArea1b2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b386b;
+    padding: 1vh;
+    width: 68vw;
+
+}
+#changeName{
+    display:flex;
+}
+#changeName input{
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 4vh;
+    text-align: center;
+    color: white;
+    outline:none;
+    border-radius:1vh;
+}
+#btnName{
+    display: none;
+    background: #06f5df;
+    border: none;
+    border-radius: 1vh;
+    padding: 1vh;
+    color: #3b386b;
+    font-weight: bold;
+}
+.pencilEdit{
+    width: 2vw;
+    height: 4vh;
+}
+#changeProfileName{
+    background: #06f5df;
+    border: none;
+    border-radius: 4vh;
+    padding: 1vh;
+}
+#middleArea1b3{
+    background: #3b386b;
+    width: 68vw;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vh;
+    color: #06f5df;
+}
+#middleArea1b3 form{
+    /* border: 2px solid white; */
+    width: 45vw;
+    border-radius: 2vh;
+    padding: 2vh;
+}
+#middleArea1b3 div{
+    /* border: 2px solid blue; */
+    padding: 1vh;
+    display: grid;
+    grid-gap: 1vh;
+}
+#changeOtherBtn1{
+    background: #06f5df;
+    border: none;
+    border-radius: 4vh;
+    padding: 1vh;
+}
+#btnName1{
+    display: none;
+    background: #06f5df;
+    border: none;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: #3b386b;
+    font-weight: bold;
+}
+#middleArea1b3 input
+{
+    background: none;
+    outline: none;
+    font-size: 3.5vh;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+}
+#middleArea1b4
+{
+    width: 68vw;
+    background: #3b386b;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vh;
+    font-size: 3.5vh;
+    color: #06f5df;
+    border-bottom-left-radius: 15vh;
+}
+#middleArea1b4 form{
+    /* border: 2px solid white; */
+    width: 45vw;
+    border-radius: 2vh;
+    padding: 2vh;
+    
+}
+#middleArea1b4 div{
+    /* border: 2px solid blue; */
+    padding: 1vh;
+    display: grid;
+    grid-gap: 1vh;
+}
+#changeOtherBtn2{
+    background: #06f5df;
+    border: none;
+    border-radius: 4vh;
+    padding: 1vh;
+}
+#btnName2{
+    display: none;
+    background: #06f5df;
+    border: none;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: #3b386b;
+    font-weight: bold;
+
+}
+#middleArea1b4 input
+{
+    background: none;
+    outline: none;
+    font-size: 3.5vh;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+}
+/*footer starts from here*/
+footer{
+    background: black;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+#footer1 img{
+    height: 40vh;
+}
+#footer2{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 15vh;
+}
+#footer2a,#footer2b,#footer2c{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+}
+#footer2 h3{
+    color:#06f5df;
+}
+#footer2 a{
+    color: white;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+#footer2 a:hover{
+      transition: color 1s ease-in 0s;
+      color: #06f5df;
+}

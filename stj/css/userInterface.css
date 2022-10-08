@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/*middle Area 2 starts form here*/
+#middleArea2{
+    background: white;
+    margin: auto;
+    margin-top: 3vh;
+    display: flex;
+    width: 86vw;
+}
+#middleArea2a{
+    width: 35vw;
+   /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+#middleArea2a1{
+    border: 2px solid black;
+    margin-top: 4vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh;
+    border-radius: 1vh;
+}
+#middleArea2a1a{
+    /*border: 2px solid blue;*/
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+}
+#middleArea2a1a img{
+    width: 10vw;
+    height: 25vh;
+    border-radius: 10vh;
+}
+#middleArea2a1a1{
+margin:3vh;
+}
+
+#middleArea2a1a1 a{
+    background-color: #0b343e;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2vh;
+    border-radius:1vh;
+}
+/*middleArea2b starts form here*/
+#middleArea2b{
+    /*border: 2px solid red;*/
+    width: 59vw;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+#middleArea2b p{
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+#middleArea2b a{
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2vh;
+    border-radius: 1vh;
+    background: #0b343e;
+    width: 10vw;
+    text-align: center;
+}
+#middleArea2b a:hover{
+    background: green;
+}
+#middleArea2b1{
+    /*border: 2px solid red;*/
+    margin-top: 2vh;
+}
+
+#middleArea2a1a1 a:hover{
+    background: green;
+}
+
+#middleArea2a1a1 h2{
+    margin-bottom: 4vh;
+}
