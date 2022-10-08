@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background:#3f383826;
+}
+
+#userIcon{
+    width: 4vw;
+    height: 7vh;
+    /*margin-left: 78vw;
+    margin-top: 1vh;*/
+}
+/*designing dropdown menu*/
+.dropdown a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.dropdown{
+    display: none;
+    padding: .6vh;
+    border-radius: 1vh;
+    background: #b6d5cc;
+}
+.dropdown a:hover{
+    background:#000;
+    color:#fff;
+ }
+ .dropdown a:hover{
+    background:#0b343e;
+    color:#fff;
+    }
+.right:hover .dropdown{
+    display:flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 74vw;
+    margin-top: -4vh;
+}
+/*dropdown menu designing stop here*/
+/* middleArea1 starts from here */
+#middleArea1{
+    background-color: #1bb4d9;
+    width: 90vw;
+    height: 24vh;
+    margin: auto;
+    /* box-shadow: 0 0 1vh #0b343e; */
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vh;
+    color: white;
+    text-shadow: 0 0 2vh black;
+}
+#middleArea1 img{
+    width: 12vw;
+    height: 16vh;
+    filter: invert();
+}
+/* middleArea2 starts from here */
+#middleArea2{
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    box-shadow: 0 0 1vh #1bb4d9;
+    border-radius:.7vh;
+}
+#middleArea2 form{
+    display:flex;
+    flex-direction: column;
+}
+#middleArea2 input{
+    width: 47vw;
+    height: 5vh;
+    border-radius: .7vh;
+    border: 1px solid gray;
+}
+#middleArea2 button{
+width: 8vw;
+align-self: flex-end;
+font-weight: bold;
+background: #1bb4d9;
+border: none;
+margin-top: 1vh;
+padding: 1vh;
+border-radius: .7vh;
+}
+

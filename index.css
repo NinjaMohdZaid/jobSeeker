@@ -1,0 +1,226 @@
+/*font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+/*css for index front page */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* navigation starts from here */
+nav{
+    height: 10vh;
+    background: #06f5df;
+    display: flex;
+    padding-top: 5.5vh;
+    position:sticky;
+    top:0;
+}
+#nav1{
+    margin-left: 5vw;
+}
+#nav1 a{
+    font-size: 3vh;
+    text-decoration: none;
+    color: #3b386b;
+    font-weight:bold;
+}
+#nav2{
+    margin-left: 5vw;;
+}
+#nav2 a{
+    color: #3b386b;
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin: 5vh;
+    font-size: 3vh;
+
+}
+#nav2 a:hover{
+    transition:color 1s ease-in 0s;
+    color:black;
+}
+/*middle area designing*/
+#middleArea1{
+    color: white;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    height: 71vh;
+}
+#loginForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginInput{
+    width: 38vw;
+    text-align: center;
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 4vh;
+    height: 5vh;
+    outline: none;
+}
+#loginButton{
+    color: white;
+    background: #0b343e;
+    border: none;
+    width: 10vw;
+    text-align: center;
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 2vh;
+    font-weight: bold;
+}
+#loginButton:hover{
+    cursor:pointer;
+}
+#hiringTag,#createAccountTag{
+    color: #06f5df;
+    font-weight: bold;
+}
+#hiringTag:hover{
+cursor: pointer;
+}
+/*warning for invalid crfedentials*/
+#warning p{
+color: red;  
+}
+/*designing for middle area 2*/
+/*giving backgeround to navbar and middle1 section*/
+#middleArea2::before{
+    background: #3b386b no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:98.72vw;
+    height: 92vh;
+    z-index: -1;
+    /* opacity: .3; */
+}
+/*new Musibat Lounch ke liye middle area2*/
+#middleArea2{
+    background: #1ce6b930;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    margin-top: 10vh;
+}
+.alertClass{
+    color:red;
+}
+/*this is 3rd section*/
+#middleArea3{
+    /*border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #42b9b352;
+    padding:4vh;
+}
+.anchorForJobSeekerServices{
+    /*border: 2px solid red;*/
+    width: 24vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#middleArea3a{
+    display: flex;
+    margin-top: 6vh;
+}
+.anchorForJobSeekerServices img{
+    height: 20vh;
+    width: 13vw
+}
+.worksHeading{
+    margin-top: 1vh;
+}
+/*middle area 4 start designing from here*/
+#middleArea4{
+   /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:4vh;
+}
+#middleArea4 p{
+    font-size: 3vh;
+}
+#middleArea4 h2,p,#middleArea4a{
+    margin: 1.2vh;
+     
+}
+#middleArea4a{
+display:none;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+#middleArea4a a{
+    width: 14vw;
+    height: 7vh;
+    background: #06f5df;
+    text-decoration: none;
+    color: #3b386b;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vh;
+}
+#arrowButton,#arrowButton img{
+    width: 4vw;
+    height: 4vh;
+    background:none;
+    border:none;
+    outline:none;
+}
+#arrowButton:hover{
+    cursor:pointer;
+}
+/*footer starts from here*/
+footer{
+    background: black;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+#footer1 img{
+    height: 40vh;
+}
+#footer2{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 15vh;
+}
+#footer2a,#footer2b,#footer2c{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+}
+#footer2 h3{
+    color:#06f5df;
+}
+#footer2 a{
+    color: white;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+#footer2 a:hover{
+      transition: color 1s ease-in 0s;
+      color: #06f5df;
+}

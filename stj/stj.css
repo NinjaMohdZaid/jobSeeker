@@ -1,0 +1,229 @@
+*{
+    color: currentColor;
+}
+
+/* navigation bar css start here */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+.middleArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid; */
+}
+
+.middleArea1{
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    height: 20vh;
+    width: 30vh;
+    border-radius: 14vh;
+    text-align: center;
+}
+/*
+#middleArea11{
+    background: url(img/doc1.jpg);
+}
+
+#middleArea12{
+    background: url(img/mehndi1.png);
+}
+
+#middleArea13{
+    background: url(img/plumber1.png);
+}
+
+#middleArea14{
+    background: url(img/sweet1.png);
+}
+
+#middleArea15{
+    background: url(img/rajMistri1.jpg);
+}
+
+#middleArea16{
+    background: url(img/carpaint1.png);
+}
+
+#middleArea17{
+    background: url(img/painter1.png);
+}
+
+#middleArea18{
+    background: url(img/electrician1.png);
+}
+
+#middleArea19{
+    background: url(img/machanic1.png);
+}
+*/
+
+.middleArea1 a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#search{
+    width: 60%;
+    height: 5vh;
+    border: groove;
+    border-radius: 4vh;
+    margin-left: 30vh;
+    text-align: center;
+    outline: none;
+    background: aliceblue;
+}
+
+button{
+    padding: 1.2vh;
+    width: 14vh;
+    border: groove;
+    border-radius: 8vh;
+    height: 6vh;
+    background: aqua;
+}
+
+button:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+hr{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+#middleArea5{
+    display: flex;
+    /* width: 80vw; */
+    margin: auto;
+    background-color: #242226;
+}
+#middleArea5a{
+    width:30vw;
+    height:40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#middleArea5b{
+    width:50vw;
+    height:40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#middleArea5a img{
+    width: 17vw;
+    height: 33vh;
+    border-radius: 6vh;
+}
+.middleArea5b1{
+    margin: auto;
+    width: 12vw;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 4vh;
+}
+
+.middleArea5b1 h3{
+    color: greenyellow;
+}
+
+#middleArea5b a{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 2.50vh;
+    margin-top: 1vh;
+}
+#middleArea5b a:hover{
+    color: white;
+    text-decoration:underline;
+}
+/* designing for 6th middle section*/
+#middleArea6{
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    background-color: #242226;
+}
+#middleArea6 img{
+    width: 3vw;
+    height: 5vh;
+}
+#middleArea6 a{
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    padding: 2vh;
+    background: aliceblue;
+    margin-left: 1vh;
+}
+#facebookIcon:hover{
+background-color:#4867aa;
+}
+#instagramIcon:hover{
+    background-color:#e9485b;
+}
+#youtubeIcon:hover{
+    background-color:red;
+}
+#twitterIcon:hover{
+    background-color:#1da1f2;
+}
+#middleArea6 img:hover{
+    filter:invert(1);
+}
+#copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    background-color: #242226;
+}
+

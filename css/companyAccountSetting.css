@@ -1,0 +1,224 @@
+/*font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+body{
+    background-color:#0b343e1f;
+}
+/* navigation starts from here */
+nav{
+    height: 10vh;
+    background: #06f5df;
+    display: flex;
+    padding-top: 5.5vh;
+    position:sticky;
+    top:0;
+}
+#nav1{
+    margin-left: 5vw;
+}
+#nav1 a{
+    font-size: 3vh;
+    text-decoration: none;
+    color: #3b386b;
+    font-weight:bold;
+}
+#nav2{
+    margin-left: 5vw;;
+}
+#nav2 a{
+    color: #3b386b;
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin: 5vh;
+    font-size: 3vh;
+
+}
+#nav2 a:hover{
+    transition:color 1s ease-in 0s;
+    color:black;
+}
+#nav3 img{
+    width: 5vw;
+    height: 9vh;
+}
+/* designing dropdown menu*/
+.dropdown a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding:2vh;
+    border-radius:1vh;
+}
+.dropdown{
+    display: none;
+    padding: .6vh;
+    border-radius: 1vh;
+    background:rgb(164, 224, 220);
+}   
+ .dropdown a:hover{
+    color:white;
+    transition: background-color 1s ease-in 0s;
+    background:#3b386b;
+}
+#nav3:hover .dropdown{
+    display:flex;
+    flex-direction: column;
+}
+#nav3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 85vw;
+    margin-top: -3vh;
+}
+/* dropdown menu designing stop here */
+#middleArea1{
+    width: 70vw;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+}
+#middleArea1b{
+    margin-left: 20px;
+    width:60vw;
+}
+#changeEmailbtn{
+        color:white;
+        background:#3b386b;
+        border: none;
+        width: 6vw;
+        height: 3vw;
+        text-align: center;
+        margin: 1vh;
+        padding: 1vh;
+        border-radius: 1vh;
+        font-weight: bold;
+    }
+.passwordReset{
+    width: 30vw;
+    margin-top: 2.5vh;
+    padding: 1vh;
+
+}
+#middleArea1a a{
+    border: 1px solid gainsboro;
+    padding: 1.5vh;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#middleArea1a a:hover{
+    background: #32272717;
+}
+
+#middleArea1b{
+    width:85vw;
+}
+#middleArea1b1{
+    padding:1vh;
+    border: 1px solid gainsboro;
+    background: white;
+
+}
+#middleArea1b1 input{
+    width: 30vw;
+    padding: 1vh;
+}
+#middleArea1b2{
+    padding:1vh;
+    border: 1px solid gainsboro;
+    background: white;
+}
+#middleArea1b3{
+    padding:1vh;
+    border: 1px solid gainsboro;
+    background: white;
+}
+#reset{
+    width: 15vw;
+    margin-top: 2.5vh;
+    padding: 1vh;
+}
+
+#resetbirth{
+    width: 14vw;
+    margin-top: 2.5vh;
+    padding: 1vh;
+}
+#savePasswordSettingBtn{
+        color:white;
+        background:#3b386b;
+        border: none;
+        width: 10vw;
+        height: 3vw;
+        text-align: center;
+        margin: 1vh;
+        padding: 1vh;
+        border-radius: 1vh;
+        font-weight: bold;
+        float: right;
+        
+}
+
+
+#middleArea1b3{
+    padding:1vh;
+    border: 1px solid gainsboro;
+    background: white;
+    height: 30vh;
+}
+#middleArea1b3 a{
+    text-decoration: none;
+}
+#closeAccountBtn{
+    color:white;
+        background:#3b386b;
+        border: none;
+        width: 13vw;
+        height: 3vw;
+        text-align: center;
+        margin: 1vh;
+        padding: 1vh;
+        border-radius: 1vh;
+        font-weight: bold;
+}
+
+
+/*footer starts from here*/
+footer{
+    background: black;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+#footer1 img{
+    height: 40vh;
+}
+#footer2{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 15vh;
+}
+#footer2a,#footer2b,#footer2c{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+}
+#footer2 h3{
+    color:#06f5df;
+}
+#footer2 a{
+    color: white;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+#footer2 a:hover{
+      transition: color 1s ease-in 0s;
+      color: #06f5df;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#middleArea5{
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    background-color: #242226;
+}
+#middleArea5a{
+    width:30vw;
+    height:40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#middleArea5b{
+    width:50vw;
+    height:40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#middleArea5a img{
+    width: 17vw;
+    height: 33vh;
+    border-radius: 6vh;
+}
+.middleArea5b1{
+    margin: auto;
+    width: 12vw;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 4vh;
+}
+
+.middleArea5b1 h3{
+    color: greenyellow;
+}
+
+#middleArea5b a{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 2.50vh;
+    margin-top: 1vh;
+}
+#middleArea5b a:hover{
+    color:black;
+    text-decoration:underline;
+}
+/* designing for 6th middle section*/
+#middleArea6{
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    background-color: #242226;
+}
+#middleArea6 img{
+    width: 3vw;
+    height: 5vh;
+}
+#middleArea6 a{
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    padding: 2vh;
+    background: aliceblue;
+    margin-left: 1vh;
+}
+#facebookIcon:hover{
+background-color:#4867aa;
+}
+#instagramIcon:hover{
+    background-color:#e9485b;
+}
+#youtubeIcon:hover{
+    background-color:red;
+}
+#twitterIcon:hover{
+    background-color:#1da1f2;
+}
+#middleArea6 img:hover{
+    filter:invert(1);
+}
+#copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    background-color: #242226;
+}
